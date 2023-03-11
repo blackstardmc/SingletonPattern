@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //Probando clase Config
+        //Testing the class config and creating two instances for know if the pattern Singleton is working correctly
         Config a = Config.getInstance();
         Config b = Config.getInstance();
         a.setOptions("Font", "Arial");

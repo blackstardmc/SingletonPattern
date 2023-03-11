@@ -7,7 +7,7 @@ public class Config {
     private static Config instance = null;
     private final Map<String, String> options;
 
-    public Config() {
+    private Config() {
         options = new HashMap<>();
     }
 
